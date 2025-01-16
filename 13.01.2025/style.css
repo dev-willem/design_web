@@ -1,48 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
-html, body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    font-family: "Lato", serif;
+.FLUXODEJOBS{
+    margin-left: 100px ;
 }
-
-main {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-}
-
-main .sec1 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    gap: 2rem;
-}
-
-main .sec1 .left {
+.Bill{
+    width: 369px;
+    height: 344px;
+    margin-top: 100px;
     border-radius: 10px;
+    background: #FFF;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
 }
-
-main .sec1 .left figure {
-    margin: 0;
+.Bill .content{
+    padding: 16px;
+    gap: 8px;
 }
-
-main .sec1 .right {
+.Bill .content span{
+    font-weight: 700;
+    color: #495057;
+    font-size: 24px;
+}
+.Bill .content p{
+    color: #6C757D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+.Bill .card2{
+    margin-top: -362px;
+    margin-left: 432px;
+    width: 769px;
+    height: 320px;
+    padding: 16px;
+    gap: 24px;
     border-radius: 5px;
+    background:  #FFF;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
 }
+.Bill .card2 span{
+    font-weight: 700;
+    color: #495057;
+    font-size: 24px;
+}
+.Bill .card2 p{
+    color: #6C757D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.publicados h1{
+    color: #273644;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 73px;
+    margin-bottom: 50px;
+}
+main{
+    width: 1350px;
+    margin-left: -28px;
+}
 
-main .sec2 {
+footer{
+    margin-left: 40px;
     display: flex;
-    flex-direction: column;
+    margin-top: 95px;
+    border-top: 1px solid #DEE2E6;
+    width: 1167px;
+    padding: 32px 0px 16px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
 }
-
-main .sec2 .title {
-    border-bottom: 1px solid black;
+footer span{
+    color: #6C757D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
 }
-
