@@ -61,11 +61,12 @@ main h2{
     border-bottom: 1px solid #DEE2E6;
 }
 
-main .projects{}
 main .projects .cards{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -110,5 +111,9 @@ footer h2{
         border-radius: 8px;
         width: auto;
         height: auto;
+    }
+
+    main .projects .cards{
+        justify-content: space-evenly;
     }
 }
